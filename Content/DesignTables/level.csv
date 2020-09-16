@@ -1,0 +1,16 @@
+name,object_name,generate_chance,position_x,position_y,delta_position_y
+#String,#String,#int,#float,#float,#float
+,,,,,
+StarLayer_1,StarLayer,0,800,300,0
+StarLayer_2,StarLayer,0,-800,300,0
+Moon,Moon,0,1000,500,0
+MyShip,Player_1,0,100,300,0
+,,,,,
+Enemy_1,Enemy_1,50,1600,300,300
+Enemy_2,Enemy_2,40,1600,300,300
+Enemy_3,Enemy_3,25,1600,300,300
+,,,,,
+Meteorite_1,Meteorite_1,5,1600,300,300
+Meteorite_2,Meteorite_2,5,1600,300,300
+Meteorite_3,Meteorite_3,10,1600,300,300
+Meteorite_4,Meteorite_4,4,1600,300,300

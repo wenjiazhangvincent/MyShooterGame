@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{bc737eaf-fb77-4605-a4c1-8f39de477715}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{082db8d2-497c-43f3-889f-322c15ba3805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\framework">
+      <UniqueIdentifier>{4899ed5f-425d-4df9-85f6-3f4ae6feb5cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\root">
+      <UniqueIdentifier>{f36a8a43-fee4-471a-8d05-b28320074f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\tick">
+      <UniqueIdentifier>{b0172451-bed8-4143-8989-48bdae8ecfc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\global_context">
+      <UniqueIdentifier>{a04d11a4-6a5d-42b5-90e2-c89363f1ee31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\render">
+      <UniqueIdentifier>{3123c11d-4bb4-46a6-8975-38b907901477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\input">
+      <UniqueIdentifier>{ba12156a-bf81-4963-a355-9bbd95917a11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\object">
+      <UniqueIdentifier>{8cee19a1-69b9-425b-b43b-2d7c1b507355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\core">
+      <UniqueIdentifier>{620eae56-4ce2-4b42-aed5-76b260ee25db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\level">
+      <UniqueIdentifier>{c2c0cc6d-018f-4602-aaba-800cc6e45605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\design_table">
+      <UniqueIdentifier>{31f48b78-111a-44d6-a67d-8dfadd6ec215}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Extern\Simple2D\includes\Simple2D.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\root\kimset_root.h">
+      <Filter>Source\root</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\tick\kismet_tick_manager.h">
+      <Filter>Source\tick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\global_context\kismet_global_context.h">
+      <Filter>Source\global_context</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\Framework\kismet_framework.h">
+      <Filter>Source\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\render\kismet_render_manager.h">
+      <Filter>Source\render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\input\kismet_input_manager.h">
+      <Filter>Source\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\object\kismet_ship.h">
+      <Filter>Source\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\object\kismet_bullet.h">
+      <Filter>Source\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\object\kismet_object_manager.h">
+      <Filter>Source\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\core\kismet_prerequisites.h">
+      <Filter>Source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\core\kismet_types.h">
+      <Filter>Source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\core\kismet_id_allocator.h">
+      <Filter>Source\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\level\kismet_level_manager.h">
+      <Filter>Source\level</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\design_table\kismet_design_table_manager.h">
+      <Filter>Source\design_table</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\object\kismet_object_base.h">
+      <Filter>Source\object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\object\kismet_object.h">
+      <Filter>Source\object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Sources\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\Framework\kismet_framework.cpp">
+      <Filter>Source\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\root\kismet_root.cpp">
+      <Filter>Source\root</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\tick\kismet_tick_manager.cpp">
+      <Filter>Source\tick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\global_context\kismet_global_context.cpp">
+      <Filter>Source\global_context</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\render\kismet_render_manager.cpp">
+      <Filter>Source\render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\input\kismet_input_manager.cpp">
+      <Filter>Source\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\object\kismet_ship.cpp">
+      <Filter>Source\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\object\kismet_bullet.cpp">
+      <Filter>Source\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\object\kismet_object_manager.cpp">
+      <Filter>Source\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\level\kismet_level_manager.cpp">
+      <Filter>Source\level</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\design_table\kismet_design_table_manager.cpp">
+      <Filter>Source\design_table</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\object\kismet_object_base.cpp">
+      <Filter>Source\object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\object\kismet_object.cpp">
+      <Filter>Source\object</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
